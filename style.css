@@ -50,10 +50,15 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	background: url('images/polkadot.png');
+	}
 }
 
 body {
-	margin: 0;
+		background-color: #fff;
+		padding: 10em;
+		margin: 2em;
+	}
 }
 
 article,
@@ -270,10 +275,9 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.5;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #a6a7ab;
 }
 
 h1,
@@ -356,6 +360,8 @@ html {
 
 body {
 	background: #fff; /* Fallback for when there is no custom background color defined. */
+	margin: 5em;
+	padding: 5em;
 }
 
 blockquote:before,
@@ -521,27 +527,34 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
+	position: center;
 	width: 100%;
+	color:#A6A7AB;
 }
 
 .main-navigation ul {
-	display: none;
-	list-style: none;
+	list-style-type: none;
+	padding: 0.625em;
 	margin: 0;
-	padding-left: 0;
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	display: inline-block;
+	margin: 0 0.625em;
 }
 
 .main-navigation a {
-	display: block;
+	color: #A6A7AB;
 	text-decoration: none;
 }
+
+.main-navigation a:hover {
+	border-bottom: .125em solid #B3E6F8;
+}
+.main-navigation a:visited {
+	color:#8BDCF4;
+}
+
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
