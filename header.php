@@ -25,7 +25,8 @@
 		<div class="site-branding">
 			<h1 class="Sarah's Sweets"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div><!-- .site-branding -->
-
+		<div class="banner">
+			<p><img src="images/ssweets.png" alt="Sarah's Sweets"></p>
 		<nav class="main-navigation">
 			<ul>
 				<li><a href="#">Home</a></li>
