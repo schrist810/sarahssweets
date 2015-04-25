@@ -12,7 +12,7 @@ get_header(); ?>
   </p>
 </div>
     <article class="products">
-      <div class="cakes"
+      <div class="cakes-page"
        <h2>Cakes</h2>
         <p>
           <img src="images/cake.jpg" alt="Cakes"></a>
