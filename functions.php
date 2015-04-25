@@ -137,3 +137,22 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Our custom post type function
+function create_posttype() {
+
+	register_post_type( 'cakes',
+	// CPT Options
+		array(
+			'labels' => array(
+				'name' => __( 'Cakes' ),
+				'singular_name' => __( 'Cake' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array('slug' => 'cakes'),
+		)
+	);
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
