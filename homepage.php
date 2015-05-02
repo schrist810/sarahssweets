@@ -6,7 +6,6 @@ get_header(); ?>
 
 <body>
   <div class="main-content">
-    <img src="images/ssweets.png" alt="Sarah's Sweets">
 
     <p> Hey ya’ll! I’m Sarah of Sarah’s Sweets! The exclusive <q>bakery</q> catering to the employees of Heiman Fire Equipment and family members of Sarah Christ.  Take a peek at some of the sweets I’ve created, and head to the <a href=contact.html>contact</a> page to get in touch.
   </p>
@@ -15,7 +14,7 @@ get_header(); ?>
       <div class="cakes-page"
        <h2>Cakes</h2>
         <p>
-          <img src="images/cake.jpg" alt="Cakes"></a>
+          <?php get_template_directory_uri() . '/images/cake.jpg' ?>
         </p>
       </div>
         <div class="cupcakes">

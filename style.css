@@ -278,6 +278,7 @@ th {
 .cakes-page {
 	float: left;
 	padding: 4em;
+
 }
 .cupcakes {
 	float: left;
@@ -290,7 +291,7 @@ th {
 }
 
 .main-content {
-  h1: url('images/ssweets.png');
+  h1:url('images/ssweets.png');
 }
 /*--------------------------------------------------------------
 # Typography
