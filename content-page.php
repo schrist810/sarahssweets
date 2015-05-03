@@ -12,7 +12,13 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php get_template_part( 'cakes', 'none' ); ?>
+		<?php the_content(); ?>
+		<?php
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . __( 'Pages:', 'sarahssweets' ),
+				'after'  => '</div>',
+			) );
+		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
