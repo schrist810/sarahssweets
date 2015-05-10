@@ -270,6 +270,10 @@ th {
 /*--------------------------------------------------------------
 # homepage
 --------------------------------------------------------------*/
+.intro {
+	padding-top:25%;
+}
+
 .products h2 {
 	font-size: 30px;
 	color: #8BDCF4;
@@ -278,6 +282,8 @@ th {
 .cakes-page {
 	float: left;
 	padding: 4em;
+	font-size: 30px;
+	color: #8BDCF4;
 
 }
 .cupcakes {
@@ -290,9 +296,12 @@ th {
 	padding: 4em;
 }
 
-.main-content {
-  h1:url('images/ssweets.png');
+.main-photo {
+	width: auto;
+	height: 200px;
 }
+
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -551,6 +560,34 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.products a {
+	color: #A6A7AB;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.products a:hover {
+  color: #8BDCF4;
+}
+
+
+.main-navigation a, a:visited {
+  color: #A6A7AB;
+  text-decoration: none;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.main-navigation a:hover {
+  color: #8BDCF4;
+}
+
 .main-navigation {
 	clear: both;
 	position: center;
@@ -569,17 +606,6 @@ a:active {
 	margin: 0 0.625em;
 }
 
-.main-navigation a {
-	color: #A6A7AB;
-	text-decoration: none;
-}
-
-.main-navigation a:hover {
-	border-bottom: .125em solid #B3E6F8;
-}
-.main-navigation a:visited {
-	color:#8BDCF4;
-}
 
 
 .main-navigation ul ul {

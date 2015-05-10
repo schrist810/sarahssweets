@@ -26,7 +26,7 @@
 			<h1 class="Sarah's Sweets"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div><!-- .site-branding -->
 		<div class="banner">
-			<?php get_template_directory_uri() . '/images/ssweets.png' ?>
+			<img src="<?php bloginfo('template_directory');?>/images/ssweets.png">
 		<nav class="main-navigation">
 			<ul>
 				<li><a href="#">Home</a></li>
